@@ -1,0 +1,136 @@
+.box-home {
+    height: auto;
+}
+
+.vh100 {
+    height: 100vh;
+}
+
+.box-home>div {
+    background-color: rgb(211, 211, 211);
+}
+
+.logo-sobre-div {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.clean-link {
+    text-decoration: none;
+    color: black;
+}
+
+#linha-vertical {
+    height: 350px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+@media screen and (max-width: 992px) {
+    .box-home {
+        height: auto;
+    }
+}
+
+.box-logged{
+    min-height: 100vh;
+    margin-top: 1rem;
+}
+
+.box-logged2-admin>a>button{
+    width: 25rem !important;
+}
+
+@media screen and (max-width: 908px) {
+    #linha-vertical {
+        visibility: hidden;
+        height: 25px;
+    }
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+  .modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+    background: #00d9ff;
+  }
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+.cell-center{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .cell-a {
+        display: flex!important;
+    }
+}
+
+.imagem-index {
+    width: 400px;
+}
+
+#tableNotaSaw>tbody>tr>td{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#tableNotaSaw>tbody>tr>td>b{
+    white-space: nowrap;
+}
+
+#tableNotaSaw>tbody>tr>th{
+    background-color: rgb(242, 242, 242)!important;
+}
+
+.tablesaw-cell-label{
+    flex: 1;
+    white-space: nowrap;
+}
